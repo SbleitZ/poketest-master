@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Rubik+Dirt&family=Ubuntu&display=swap');
+.TP-main-desc{
+    /* width: 30px; */
+    list-style: none;
+    font-size: 1.4rem;
+    /* text-overflow: anywhere; */
+    /* white-space: wrap;
+    overflow: wrap; */
+}
+.TP-second-desc{
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.TP-title{
+    font-family: 'Rubik Dirt', cursive;
+    text-transform: uppercase;
+}
+.TP-main-desc li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* width: 140px; */
+}
+.TP-container{
+    margin-top: 120px;
+    height: 100vh;
+}
+
+.label-item{
+    text-align: right;
+}
+.TP-img-container{
+    height: 300px;
+}
+.TP-img-container img{
+    height: 100%;
+}

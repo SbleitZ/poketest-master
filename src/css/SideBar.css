@@ -1,0 +1,35 @@
+.SideBar-container{
+    padding: 12px;
+    margin: 0px;
+    background-color: #eee;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid rgb(187, 185, 185);
+}
+.SideBar-container ul{
+    list-style: none;
+    margin-left: 13px;
+    padding: 0;
+    color: #000;
+}
+.SideBar-main-lista a{
+    /* color: #; */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 768px) {
+    .SideBar-container{
+        width: 100%;
+        /* background-color: red; */
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 12px;
+    }
+    .SideBar-title{
+        display: none;
+    }
+    
+}
